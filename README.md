@@ -16,4 +16,3 @@ it‘s my CGAN code and results. And the performance is evaluated by Pytorch ver
   ```python
   python cgan_mnist.py --save_path mnist_results --batch_size 1 
   ```
-
