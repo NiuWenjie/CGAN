@@ -4,7 +4,7 @@ import torchvision
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.data import DataLoader
-from network import dcgan_Discriminator, dcgan_Generator
+from dcgan_network import Discriminator, Generator
 import torchvision.transforms as transforms
 from torchvision.utils import save_image
 from torchvision import datasets
@@ -51,8 +51,8 @@ class trainer_gan(nn.Module):
     def __init__(self):
         super(trainer_gan, self).__init__()
 
-        self.G = dcgan_Generator(opt.channel)
-        self.D = dcgan_Discriminator(opt.channel)
+        self.G = Generator(opt.channel)
+        self.D = Discriminator(opt.channel)
         self.loss = nn.MSELoss()
         self.Optimizer_G = torch.optim.Adam(self.G.parameters(), lr=opt.lr, betas=(0.5,  0.999))
         self.Optimizer_D = torch.optim.Adam(self.D.parameters(), lr=opt.lr, betas=(0.5,  0.999))

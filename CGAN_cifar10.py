@@ -7,7 +7,7 @@ import torchvision.transforms as transforms
 from torchvision.utils import save_image
 from torchvision import datasets
 from torch.autograd import Variable
-from network import Generator, Discriminator
+from CGAN_network import Generator, Discriminator
 import argparse
 import numpy as np
 import os

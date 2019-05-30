@@ -3,7 +3,7 @@ import torchvision
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.data import DataLoader
-from network import Generator, Discriminator
+from CGAN_network import Generator, Discriminator
 import torchvision.transforms as transforms
 from torchvision.utils import save_image
 from torchvision import datasets
