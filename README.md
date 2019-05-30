@@ -1,4 +1,6 @@
-it‘s my CGAN code and results. And the performance is evaluated by Pytorch version of  [FID](https://github.com/mseitzer/pytorch-fid).
+it‘s my CGAN and DCGAN code and results. And the performance is evaluated by Pytorch version of  [FID](https://github.com/mseitzer/pytorch-fid).
+
+``CGAN results``
 
 | Datasets | FID |
 | :------: | :----: |
