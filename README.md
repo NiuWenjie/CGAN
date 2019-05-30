@@ -1,7 +1,6 @@
 it‘s my CGAN and DCGAN code and results. And the performance is evaluated by Pytorch version of  [FID](https://github.com/mseitzer/pytorch-fid).
 
-``CGAN results``
-
+### CGAN
 | Datasets | FID |
 | :------: | :----: |
 | MNIST |  27.7237|
@@ -18,3 +17,4 @@ it‘s my CGAN and DCGAN code and results. And the performance is evaluated by P
   ```python
   python cgan_mnist.py --save_path mnist_results --batch_size 1 
   ```
+### DCGAN
