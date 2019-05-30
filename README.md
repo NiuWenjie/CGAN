@@ -14,11 +14,14 @@ it‘s my CGAN and DCGAN code and results. And the performance is evaluated by P
   ```
   If you want to compute FID, you need to set ``` --batch_size 1 ```.
   
-### CGAN
-| Datasets | FID |
-| :------: | :----: |
-| MNIST |  27.7237|
-| CIFAR-10 | 280.0052 |
+  ### CGAN
+  | Datasets | FID |
+  | :------: | :----: |
+  | MNIST |  27.7237|
+  | CIFAR-10 | 280.0052 |
 
 
-### DCGAN
+  ### DCGAN
+  | Datasets | FID |
+  | :------: | :----: |
+  | MNIST |  |
