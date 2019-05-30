@@ -5,14 +5,14 @@ it‘s my CGAN and DCGAN code and results. And the performance is evaluated by P
   ```python
   python cgan_mnist.py --save_path mnist_results
   ```
-``` --save_path ``` should be given.
+  ``` --save_path ``` should be given.
 
 * Test a model:
 
   ```python
   python cgan_mnist.py --save_path mnist_results --batch_size 1 
   ```
-If you want to compute FID, you need to set ``` --batch_size 1 ```.
+  If you want to compute FID, you need to set ``` --batch_size 1 ```.
   
 ### CGAN
 | Datasets | FID |
