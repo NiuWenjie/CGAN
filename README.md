@@ -24,4 +24,6 @@ it‘s my CGAN and DCGAN code and results. And the performance is evaluated by P
   ### DCGAN
   | Datasets | FID |
   | :------: | :----: |
-  | MNIST |  |
+  | MNIST | 14.4887 | 
+  | CIFAR-10 | 21.0302 |
+  | CelebA |  |
