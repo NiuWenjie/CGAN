@@ -1,0 +1,1 @@
+CGAN_cifar10.py and CGAN_mnist.py are python file with tensorboard tool, which could see the change of loss and results

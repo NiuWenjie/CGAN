@@ -1,6 +1,10 @@
+import torch
+import torch.nn as nn
+import numpy as np
+
 class Generator(nn.Module):
     def __init__(self, channels):
-        super(dcgan_Generator, self).__init__()
+        super(Generator, self).__init__()
         self.model = nn.Sequential(
             # input z=100, output [1024, 4, 4], kernal_size (4,4), stride=2
             nn.ConvTranspose2d(100, 1024, 4, 1, 0, bias=False),
@@ -27,7 +31,7 @@ class Generator(nn.Module):
 
 class Discriminator(nn.Module):
     def __init__(self, channels):
-        super(dcgan_Discriminator, self).__init__()
+        super(Discriminator, self).__init__()
         self.model = nn.Sequential(
             # input [1, 64, 64] output [128, 32, 32]
             nn.Conv2d(channels, 128, 4, 2, 1, bias=False),
